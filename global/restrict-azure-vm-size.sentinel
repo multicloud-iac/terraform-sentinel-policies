@@ -8,7 +8,7 @@ import "strings"
 ##### Lists #####
 
 # Allowed Azure VM Sizes
-allowed_vm_sizes = [
+allowed_sizes = [
 	"Standard_D1_v2",
 	"Standard_D1_V2",
 	"Standard_D2_v2",
