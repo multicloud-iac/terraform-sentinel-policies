@@ -9,7 +9,7 @@ import "strings"
 # since that is what the tfconfig mocks use
 
 # Set module_prefix
-module_prefix = "app.terraform.io/multicloud"
+module_prefix = "app.terraform.io/multicloud-iac"
 if strings.has_prefix(module_prefix, "$") { 
   # template wasn't evaluated, probably in testing
   module_prefix = "app.terraform.io/OurOrganization"
