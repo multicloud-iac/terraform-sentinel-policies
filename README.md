@@ -1,6 +1,6 @@
 # Demonstration Terraform Enterprise Sentinel Policies
 
-Sample Sentinel Policies for use in Terraform Enterprise
+Sample Sentinel Policies for Terraform Enterprise
 
 ---
 
