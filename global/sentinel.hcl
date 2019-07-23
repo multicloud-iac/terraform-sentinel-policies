@@ -1,7 +1,7 @@
 # Sentinel Policies
 
 policy "enforce-mandatory-tags" {
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "restrict-azure-vm-size" {
