@@ -1,4 +1,4 @@
-# Sentinel Policies - Governance
+# Sentinel Policies - Governance - 08/19/2019
 
 policy "governance-block-resources-from-root" {
   enforcement_level = "soft-mandatory"
