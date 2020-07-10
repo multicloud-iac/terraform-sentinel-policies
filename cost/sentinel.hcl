@@ -23,10 +23,10 @@ policy "limit-cost-and-percentage-increase" {
     enforcement_level = "advisory"
 }
 
-policy "limit-cost-by-workspace-name" {
-    source = "./limit-cost-by-workspace-name.sentinel"
-    enforcement_level = "advisory"
-}
+# policy "limit-cost-by-workspace-name" {
+#     source = "./limit-cost-by-workspace-name.sentinel"
+#     enforcement_level = "advisory"
+# }
 
 policy "limit-proposed-monthly-cost" {
     source = "./limit-proposed-monthly-cost.sentinel"
