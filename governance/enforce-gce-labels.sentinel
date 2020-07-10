@@ -9,7 +9,7 @@
 import "tfplan-functions" as plan
 
 # List of mandatory labels
-mandatory_labels = ["name", "ttl", "owner"]
+mandatory_labels = ["ttl", "owner"]
 
 # Get all GCE compute instances
 allGCEInstances = plan.find_resources("google_compute_instance")
