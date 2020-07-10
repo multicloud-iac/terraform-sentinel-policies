@@ -4,7 +4,7 @@ Sample Sentinel Policies for Terraform Enterprise
 
 ---
 
-These policies are defined as [Policy Sets](https://www.terraform.io/docs/enterprise/sentinel/manage-policies.html) using Terraform Enterprise VCS intergration.
+These policies are defined as [Policy Sets](https://www.terraform.io/docs/enterprise/sentinel/manage-policies.html) using Terraform Enterprise VCS integration.
 
 ## Introduction to HashiCorp Sentinel
 
@@ -15,4 +15,4 @@ These policies are defined as [Policy Sets](https://www.terraform.io/docs/enterp
 ## Using Sentinel with Terraform Enterprise
 
 - Using [Sentinel Policies with Terraform Enterprise](https://www.terraform.io/docs/enterprise/sentinel/index.html).
-- Sample Terraform Sentinel policies and documentation located in [governance directory in terraform-guides](https://github.com/hashicorp/terraform-guides/tree/master/governance/second-generation).
+- Sample Terraform Sentinel policies and documentation located in [governance directory in terraform-guides](https://github.com/hashicorp/terraform-guides/tree/master/governance/third-generation).
