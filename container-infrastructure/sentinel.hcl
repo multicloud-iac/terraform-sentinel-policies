@@ -14,5 +14,5 @@ module "tfconfig-functions" {
 
 policy "restrict-app-service-to-https" {
   source = "./restrict-app-service-to-https.sentinel"
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
