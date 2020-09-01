@@ -23,11 +23,6 @@ policy "limit-cost-and-percentage-increase" {
     enforcement_level = "advisory"
 }
 
-# policy "limit-cost-by-workspace-name" {
-#     source = "./limit-cost-by-workspace-name.sentinel"
-#     enforcement_level = "advisory"
-# }
-
 policy "limit-proposed-monthly-cost" {
     source = "./limit-proposed-monthly-cost.sentinel"
     enforcement_level = "advisory"
@@ -40,7 +35,7 @@ policy "restrict-azure-vm-size" {
 
 policy "restrict-ec2-instance-type" {
   source = "./restrict-ec2-instance-type.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "restrict-gce-machine-type" {
