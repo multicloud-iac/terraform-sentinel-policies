@@ -55,9 +55,3 @@ policy "prohibited-resources" {
     source = "./prohibited-resources.sentinel"
     enforcement_level = "advisory"
 }
-
-# Force Specific AZs
-policy "restrict-availability-zones" {
-  source = "./restrict-availability-zones.sentinel"
-  enforcement_level = "advisory"
-}
