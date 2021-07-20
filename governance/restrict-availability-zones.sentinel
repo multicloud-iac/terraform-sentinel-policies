@@ -11,8 +11,7 @@ import "tfplan-functions" as plan
 # Allowed EC2 Zones
 # Include "null" to allow missing or computed values
 allowed_zones = [
-  "us-east-1a","us-east-1b","us-east-1c","us-east-1d","us-east-1e","us-east-1f",
-]
+  "us-east-1a","us-east-1b","us-east-1c","us-east-1d","us-east-1e","us-east-1f", "us-west-2a", "us-west-2b", "us-west-2c", "us-west-2d"]
 
 # Get all EC2 instances
 allEC2Instances = plan.find_resources("aws_instance")
