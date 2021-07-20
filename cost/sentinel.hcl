@@ -20,7 +20,7 @@ module "aws-functions" {
 
 policy "limit-cost-and-percentage-increase" {
     source = "./limit-cost-and-percentage-increase.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory"
 }
 
 policy "limit-proposed-monthly-cost" {
