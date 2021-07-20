@@ -18,26 +18,7 @@ module "aws-functions" {
   source = "../functions/aws-functions.sentinel"
 }
 
-policy "allowed-datasources" {
-    source = "./allowed-datasources.sentinel"
-    enforcement_level = "advisory"
-}
-
-policy "allowed-providers" {
-    source = "./allowed-providers.sentinel"
-    enforcement_level = "advisory"
-}
-
-policy "allowed-provisioners" {
-    source = "./allowed-provisioners.sentinel"
-    enforcement_level = "advisory"
-}
-
-policy "allowed-resources" {
-    source = "./allowed-resources.sentinel"
-    enforcement_level = "advisory"
-}
-
+# Enforce Tags and Labels
 policy "enforce-aws-tags" {
   source = "./enforce-aws-tags.sentinel"
   enforcement_level = "advisory"
@@ -52,6 +33,8 @@ policy "enforce-gce-labels" {
     source = "./enforce-gce-labels.sentinel"
     enforcement_level = "advisory"
 }
+
+# Prohibit Specific Items
 
 policy "prohibited-datasources" {
     source = "./prohibited-datasources.sentinel"
@@ -73,11 +56,7 @@ policy "prohibited-resources" {
     enforcement_level = "advisory"
 }
 
-policy "require-all-resources-from-pmr" {
-    source = "./require-all-resources-from-pmr.sentinel"
-    enforcement_level = "advisory"
-}
-
+# Force Specific AZs
 policy "restrict-availability-zones" {
   source = "./restrict-availability-zones.sentinel"
   enforcement_level = "advisory"
