@@ -9,7 +9,7 @@ import "strings"
 # The address of the TFC or TFE server
 param address default "app.terraform.io"
 # The organization on the TFC or TFE server
-param organization
+param organization default "multicloud-dev"
 
 # Fnd modules called from root module that are not in the desired PMR
 violatingMCs = filter tfconfig.module_calls as index, mc {
