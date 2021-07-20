@@ -10,7 +10,7 @@ import "tfrun-functions" as run
 import "decimal"
 
 # Monthly Limit and Max Percent Increase
-limit = decimal.new(1000)
+limit = decimal.new(500)
 max_percent = decimal.new(10.0)
 
 # Call the validation function
